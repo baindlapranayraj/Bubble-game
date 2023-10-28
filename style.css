@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    border: 3px solid black;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.Game{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-decoration: wavy;
+    color: rgb(30, 96, 8);
+    background-image: url("https://png.pngtree.com/element_our/20190603/ourlarge/pngtree-green-bubble-cartoon-illustration-image_1432306.jpg");
+    background-position: center;
+     background-repeat: repeat;
+}
+
+.flex{
+    display: flex;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(145, 235, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+   border-radius: 10px;
+ 
+}
+
+#panel h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: rgb(112, 216, 15);
+    text-decoration: underline;
+    text-align: center;
+    
+
+}
+
+#ptop{
+    padding: 3.4% 30%;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(68, 142, 72);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+  
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.elem h3{
+    font-weight: 400;
+}
+
+.box{
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    /* width: 50%; */
+    color: rgb(88, 126, 31);
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+#pbtn{
+    width: 100%;
+    height: calc(100% - 100px);
+    /* height: 110%; */
+   display: flex;
+   gap: 10px;
+   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
+}
+
+.bubble{
+
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 139, 47);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+.bubble:hover{
+    background-color: rgb(29, 76, 36);
+   
+}
+
