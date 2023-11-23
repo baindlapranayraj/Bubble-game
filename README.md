@@ -9,3 +9,5 @@
 ✅ Hours of endless fun and entertainment
 
 📈 I built this game as a side project to improve my Javascript skills, and thrilled to share it with you.
+
+https://baindlapranayraj.github.io/Bubble-game/
